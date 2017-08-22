@@ -1,7 +1,7 @@
 #
 # This policy configuration will be used by all products that
-# inherit from Lineage
+# inherit from MoKee
 #
 
 BOARD_SEPOLICY_DIRS += \
-    device/lineage/sepolicy/common
+    device/mokee/sepolicy/common
