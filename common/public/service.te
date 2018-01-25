@@ -3,6 +3,4 @@ type mk_hardware_service, system_api_service, system_server_service, service_man
 type mk_livedisplay_service, system_api_service, system_server_service, service_manager_type;
 type mk_performance_service, system_api_service, system_server_service, service_manager_type;
 type mk_profile_service, system_api_service, system_server_service, service_manager_type;
-type mk_status_bar_service, system_api_service, system_server_service, service_manager_type;
-type mk_telephony_service, system_api_service, system_server_service, service_manager_type;
 type mk_weather_service, system_api_service, system_server_service, service_manager_type;
