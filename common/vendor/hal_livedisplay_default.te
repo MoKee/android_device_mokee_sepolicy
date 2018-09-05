@@ -8,5 +8,5 @@ init_daemon_domain(hal_livedisplay_default)
 # Check if hwservicemanager is ready
 get_prop(hal_livedisplay_default, hwservicemanager_prop)
 
-# Add vendor.lineage.livedisplay::IColor service to hwservicemanager
-add_hwservice(hal_livedisplay_default, hal_lineage_livedisplay_hwservice)
+# Add vendor.mokee.livedisplay::IColor service to hwservicemanager
+add_hwservice(hal_livedisplay_default, hal_mokee_livedisplay_hwservice)
