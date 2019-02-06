@@ -1,0 +1,5 @@
+# HwBinder IPC from client to server
+binder_call(hal_mokee_touch_client, hal_mokee_touch_server)
+
+add_hwservice(hal_mokee_touch_server, hal_mokee_touch_hwservice)
+allow hal_mokee_touch_client hal_mokee_touch_hwservice:hwservice_manager find;

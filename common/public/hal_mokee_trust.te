@@ -1,0 +1,9 @@
+# HwBinder IPC from client to server
+binder_call(hal_mokee_trust_client, hal_mokee_trust_server)
+
+add_hwservice(hal_mokee_trust_server, hal_mokee_trust_hwservice)
+allow hal_mokee_trust_client hal_mokee_trust_hwservice:hwservice_manager find;
+
+allow hal_mokee_trust self:capability sys_admin;
+
+allow hal_mokee_trust proc_deny_new_usb:file rw_file_perms;

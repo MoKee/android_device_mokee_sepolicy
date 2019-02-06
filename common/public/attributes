@@ -1,0 +1,4 @@
+# HALs
+hal_attribute(mokee_livedisplay)
+hal_attribute(mokee_touch)
+hal_attribute(mokee_trust)
