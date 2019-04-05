@@ -24,6 +24,7 @@ set_prop(recovery, mk_recovery_prop)
 
 # Set system properties for various things
 set_prop(recovery, system_prop)
+set_prop(recovery, system_radio_prop)
 
 # Switch to backuptool
 allow recovery self:process setexec;
@@ -31,4 +32,19 @@ domain_trans(recovery, otapreopt_chroot_exec, backuptool)
 
 # Some addons require this for A/B installation compatibility
 allow recovery system_file:dir mounton;
+
+# Volume manager
+allow recovery block_device:dir create_dir_perms;
+allow recovery block_device:blk_file { create rw_file_perms };
+allow recovery self:capability mknod;
+allow recovery proc_filesystems:file r_file_perms;
+allow recovery self:netlink_kobject_uevent_socket create_socket_perms_no_ioctl;
+allow recovery sysfs:file w_file_perms; # writing to /sys/*/uevent during coldboot.
+allow recovery tmpfs:file link;
+
+# Read battery percentage
+allow recovery sysfs_batteryinfo:dir search;
+
+# Read fbe encryption info
+r_dir_file(recovery, unencrypted_data_file)
 ')
