@@ -1,4 +1,5 @@
 type hal_mokee_camera_motor_hwservice, hwservice_manager_type;
+type hal_mokee_fod_hwservice, hwservice_manager_type;
 type hal_mokee_livedisplay_hwservice, hwservice_manager_type;
 type hal_mokee_touch_hwservice, hwservice_manager_type;
 type hal_mokee_trust_hwservice, hwservice_manager_type;
