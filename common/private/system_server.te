@@ -5,3 +5,6 @@ hal_client_domain(system_server, hal_mokee_fod)
 hal_client_domain(system_server, hal_mokee_livedisplay)
 hal_client_domain(system_server, hal_mokee_touch)
 hal_client_domain(system_server, hal_mokee_trust)
+
+# Long screenshot
+add_service(system_server, longshot_service)
