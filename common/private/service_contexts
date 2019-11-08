@@ -8,5 +8,7 @@ mktrust                              u:object_r:mk_trust_service:s0
 mkweather                            u:object_r:mk_weather_service:s0
 profile                              u:object_r:mk_profile_service:s0
 
+adbroot_service                           u:object_r:adbroot_service:s0
+
 # Long screenshot
 longshot                             u:object_r:longshot_service:s0
