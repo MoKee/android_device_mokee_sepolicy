@@ -3,4 +3,3 @@ binder_call(hal_mokee_livedisplay_client, hal_mokee_livedisplay_server)
 
 add_hwservice(hal_mokee_livedisplay_server, hal_mokee_livedisplay_hwservice)
 allow hal_mokee_livedisplay_client hal_mokee_livedisplay_hwservice:hwservice_manager find;
-r_dir_file(hal_mokee_livedisplay_sysfs, sysfs_graphics)
