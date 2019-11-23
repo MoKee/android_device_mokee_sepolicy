@@ -3,7 +3,6 @@ mkhardware                           u:object_r:mk_hardware_service:s0
 mklicense                            u:object_r:mk_license_service:s0
 mklivedisplay                        u:object_r:mk_livedisplay_service:s0
 mkperformance                        u:object_r:mk_performance_service:s0
-mkstyle                              u:object_r:mk_style_service:s0
 mktrust                              u:object_r:mk_trust_service:s0
 mkweather                            u:object_r:mk_weather_service:s0
 profile                              u:object_r:mk_profile_service:s0
