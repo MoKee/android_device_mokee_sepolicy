@@ -24,3 +24,6 @@ BOARD_SEPOLICY_DIRS += \
     device/mokee/sepolicy/common/dynamic \
     device/mokee/sepolicy/common/vendor
 endif
+
+# Selectively include legacy rules defined by the products
+-include device/mokee/sepolicy/legacy-common/sepolicy.mk
