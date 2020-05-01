@@ -10,6 +10,7 @@ vendor.mokee.livedisplay::IPictureAdjustment       u:object_r:hal_mokee_livedisp
 vendor.mokee.livedisplay::IReadingEnhancement      u:object_r:hal_mokee_livedisplay_hwservice:s0
 vendor.mokee.livedisplay::ISunlightEnhancement     u:object_r:hal_mokee_livedisplay_hwservice:s0
 vendor.mokee.power::IMoKeePower                  u:object_r:hal_power_hwservice:s0
+vendor.mokee.powershare::IPowerShare                                  u:object_r:hal_mokee_powershare_hwservice:s0
 vendor.mokee.touch::IGloveMode                     u:object_r:hal_mokee_touch_hwservice:s0
 vendor.mokee.touch::IKeyDisabler                   u:object_r:hal_mokee_touch_hwservice:s0
 vendor.mokee.touch::IStylusMode                    u:object_r:hal_mokee_touch_hwservice:s0
