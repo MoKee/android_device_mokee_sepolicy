@@ -1,10 +1,10 @@
 type longshot_service, system_api_service, system_server_service, service_manager_type;
 type adbroot_service,                   service_manager_type;
-type mk_audio_service, system_api_service, system_server_service, service_manager_type;
-type mk_hardware_service, system_api_service, system_server_service, service_manager_type;
-type mk_license_service, system_api_service, system_server_service, service_manager_type;
-type mk_livedisplay_service, system_api_service, system_server_service, service_manager_type;
-type mk_performance_service, system_api_service, system_server_service, service_manager_type;
-type mk_profile_service, system_api_service, system_server_service, service_manager_type;
-type mk_trust_service, system_api_service, system_server_service, service_manager_type;
-type mk_weather_service, system_api_service, system_server_service, service_manager_type;
+type mokee_audio_service, system_api_service, system_server_service, service_manager_type;
+type mokee_hardware_service, system_api_service, system_server_service, service_manager_type;
+type mokee_license_service, system_api_service, system_server_service, service_manager_type;
+type mokee_livedisplay_service, system_api_service, system_server_service, service_manager_type;
+type mokee_performance_service, system_api_service, system_server_service, service_manager_type;
+type mokee_profile_service, system_api_service, system_server_service, service_manager_type;
+type mokee_trust_service, system_api_service, system_server_service, service_manager_type;
+type mokee_weather_service, system_api_service, system_server_service, service_manager_type;
