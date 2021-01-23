@@ -1,5 +1,6 @@
 # HALs
 hal_attribute_mokee(mokee_camera_motor)
+hal_attribute_mokee(mokee_fastcharge)
 hal_attribute_mokee(mokee_fod)
 hal_attribute_mokee(mokee_livedisplay)
 hal_attribute_mokee(mokee_touch)
