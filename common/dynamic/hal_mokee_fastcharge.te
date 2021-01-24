@@ -1,0 +1,8 @@
+# HWBinder IPC from client to server
+binder_call(hal_mokee_fastcharge_client, hal_mokee_fastcharge_server)
+
+add_hwservice(hal_mokee_fastcharge_server, hal_mokee_fastcharge_hwservice)
+allow hal_mokee_fastcharge_client hal_mokee_fastcharge_hwservice:hwservice_manager find;
+
+# Allow binder communication with platform_app
+binder_call(hal_mokee_fastcharge, platform_app)

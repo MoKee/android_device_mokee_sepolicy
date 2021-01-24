@@ -1,6 +1,6 @@
 #
 # This policy configuration will be used by all mediatek products
-# that inherit from Lineage
+# that inherit from MoKee
 #
 
 ifeq ($(TARGET_COPY_OUT_VENDOR), vendor)
