@@ -1,3 +1,4 @@
+motorola.hardware.health::IMotHealth                                    u:object_r:hal_health_hwservice:s0
 vendor.mokee.biometrics.fingerprint.inscreen::IFingerprintInscreen    u:object_r:hal_mokee_fod_hwservice:s0
 vendor.mokee.camera.motor::ICameraMotor                               u:object_r:hal_mokee_camera_motor_hwservice:s0
 vendor.mokee.fastcharge::IFastCharge                                  u:object_r:hal_mokee_fastcharge_hwservice:s0
