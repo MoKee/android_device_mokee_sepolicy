@@ -3,6 +3,7 @@ vendor.mokee.biometrics.fingerprint.inscreen::IFingerprintInscreen    u:object_r
 vendor.mokee.camera.motor::ICameraMotor                               u:object_r:hal_mokee_camera_motor_hwservice:s0
 vendor.mokee.fastcharge::IFastCharge                                  u:object_r:hal_mokee_fastcharge_hwservice:s0
 vendor.mokee.livedisplay::IAdaptiveBacklight                          u:object_r:hal_mokee_livedisplay_hwservice:s0
+vendor.mokee.livedisplay::IAntiFlicker                                u:object_r:hal_mokee_livedisplay_hwservice:s0
 vendor.mokee.livedisplay::IAutoContrast                               u:object_r:hal_mokee_livedisplay_hwservice:s0
 vendor.mokee.livedisplay::IColorBalance                               u:object_r:hal_mokee_livedisplay_hwservice:s0
 vendor.mokee.livedisplay::IColorEnhancement                           u:object_r:hal_mokee_livedisplay_hwservice:s0
