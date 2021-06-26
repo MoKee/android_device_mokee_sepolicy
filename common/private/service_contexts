@@ -1,4 +1,5 @@
 mokeeaudio                              u:object_r:mokee_audio_service:s0
+mokeeglobalactions                      u:object_r:mokee_globalactions_service:s0
 mokeehardware                           u:object_r:mokee_hardware_service:s0
 mokeelicense                            u:object_r:mokee_license_service:s0
 mokeelivedisplay                        u:object_r:mokee_livedisplay_service:s0

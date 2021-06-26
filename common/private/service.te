@@ -2,6 +2,7 @@ type longshot_service, system_api_service, system_server_service, service_manage
 type adbroot_service,                   service_manager_type;
 type mokee_audio_service, system_api_service, system_server_service, service_manager_type;
 type mokee_hardware_service, system_api_service, system_server_service, service_manager_type;
+type mokee_globalactions_service, system_api_service, system_server_service, service_manager_type;
 type mokee_license_service, system_api_service, system_server_service, service_manager_type;
 type mokee_livedisplay_service, system_api_service, system_server_service, service_manager_type;
 type mokee_performance_service, system_api_service, system_server_service, service_manager_type;
