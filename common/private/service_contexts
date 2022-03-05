@@ -5,7 +5,6 @@ mokeelicense                            u:object_r:mokee_license_service:s0
 mokeelivedisplay                        u:object_r:mokee_livedisplay_service:s0
 mokeeperformance                         u:object_r:mokee_performance_service:s0
 mokeetrust                              u:object_r:mokee_trust_service:s0
-mokeeweather                            u:object_r:mokee_weather_service:s0
 profile                                 u:object_r:mokee_profile_service:s0
 
 adbroot_service                           u:object_r:adbroot_service:s0

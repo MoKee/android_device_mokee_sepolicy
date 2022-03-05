@@ -8,4 +8,3 @@ type mokee_livedisplay_service, system_api_service, system_server_service, servi
 type mokee_performance_service, system_api_service, system_server_service, service_manager_type;
 type mokee_profile_service, system_api_service, system_server_service, service_manager_type;
 type mokee_trust_service, system_api_service, system_server_service, service_manager_type;
-type mokee_weather_service, system_api_service, system_server_service, service_manager_type;
